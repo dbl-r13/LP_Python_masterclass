@@ -12,5 +12,6 @@ print("Hello" + " world")
 greeting = "Hello"
 # name = "Ryan"
 name = input("Please enter your name ")
-# if we ant a space we can add that too
+# if we want a space we can add that too
 print(greeting + " " + name)
+print(greeting, name)
