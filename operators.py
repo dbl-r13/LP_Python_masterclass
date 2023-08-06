@@ -25,3 +25,6 @@ for i in range(1, (a // b) + 1):
 # print(i)
 # i = 3
 # print(i)
+
+# Doing PEMDAS from left to right gets us -35 which is the answer from the below statement
+print(a + b / 3 - 4 * 12)
