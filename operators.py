@@ -18,3 +18,10 @@ print("*" * 30)
 # If 1 slash is used below, it will produce a TypeError
 for i in range(1, (a // b) + 1):
     print(i)
+# Below is the same as above, just more lines of code
+# i = 1
+# print(i)
+# i = 2
+# print(i)
+# i = 3
+# print(i)
