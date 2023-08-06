@@ -9,3 +9,6 @@ print(letters[16:13:-1])
 print(letters[4::-1])
 # Slice the string to repoduce the last 8 characters in reverse order
 print(letters[25:17:-1])  # Also could have used letters[:-9:-1]
+
+# What is a Sequence?
+# A Sequence is an ordered set of items.
