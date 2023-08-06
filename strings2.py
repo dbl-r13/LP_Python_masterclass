@@ -52,5 +52,5 @@ separators = number[1::4]
 print(separators)  # all the separators
 values = "".join(char if char not in separators else " " for char in number).split()
 
-print([int(val) if int(val) % 2 == 0 else val for val in values])
+print([int(val) for val in values if int(val) % 2 == 0])
 print([int(val) for val in values])
