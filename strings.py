@@ -36,3 +36,9 @@ age_in_words = "2 years"
 # Below code will not error out.
 print(name + " is " + age_in_words + " old")
 print(type(age))
+
+# Example of f strings
+print(name + f" is {age} years old")
+
+# f string used with an expression instead of a variable
+print(f"Pi is approximately {22/7:12.50f}")
